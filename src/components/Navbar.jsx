@@ -1,6 +1,7 @@
 import { Box, Flex, Link, Spacer, Text, Input, InputGroup, InputRightElement, IconButton, VStack } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { useState } from "react";
+import { sampleProducts } from "../pages/Products.jsx";
 import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
