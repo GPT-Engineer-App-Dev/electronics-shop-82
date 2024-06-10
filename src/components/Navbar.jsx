@@ -2,12 +2,7 @@ import { Box, Flex, Link, Spacer, Text, Input, InputGroup, InputRightElement, Ic
 import { Link as RouterLink } from "react-router-dom";
 import { SearchIcon, CloseIcon } from "@chakra-ui/icons";
 import { useState } from "react";
-
-const sampleProducts = [
-  { id: 1, name: "Product 1" },
-  { id: 2, name: "Product 2" },
-  { id: 3, name: "Product 3" },
-];
+import { sampleProducts } from "../pages/Products.jsx";
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState("");
