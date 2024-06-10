@@ -1,6 +1,6 @@
 import { Box, SimpleGrid, Image, Text, VStack } from "@chakra-ui/react";
 
-const sampleProducts = [
+export const sampleProducts = [
   {
     id: 1,
     name: "Smartphone",
